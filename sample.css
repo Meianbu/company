@@ -1,0 +1,39 @@
+body{
+    background-color:white;
+  }
+  .topnav {
+    background-image: url('./log.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px;
+overflow: hidden;
+background-color: rgb(143, 139, 139);
+position: fixed;
+width: 100%;
+
+}
+
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+.topnav a.active {
+float: right;
+background-color: #aa8304;
+color: white;
+}
+    .center {
+margin-left: auto;
+margin-right: auto;
+
+}
